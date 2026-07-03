@@ -1,0 +1,6 @@
+@Rydex.Api_HostAddress = http://localhost:5177
+
+GET {{Rydex.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

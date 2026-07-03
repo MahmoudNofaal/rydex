@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/api/">
+    <File Path="api/openapi.yaml" />
+  </Folder>
+  <Folder Name="/infra/">
+    <File Path="infra/docker-compose.override.yml" />
+    <File Path="infra/docker-compose.yml" />
+    <File Path="infra/Dockerfile" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Rydex.Api/Rydex.Api.csproj" />
+    <Project Path="src/Rydex.Application/Rydex.Application.csproj" />
+    <Project Path="src/Rydex.Domain/Rydex.Domain.csproj" />
+    <Project Path="src/Rydex.Infrastructure/Rydex.Infrastructure.csproj" />
+    <Project Path="src/Rydex.MatchingEngine/Rydex.MatchingEngine.csproj" />
+    <Project Path="src/Rydex.Worker/Rydex.Worker.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+</Solution>
